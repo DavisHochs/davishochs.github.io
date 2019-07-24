@@ -10,6 +10,7 @@ body {
     position: fixed;
     top:0;
     left:0;
+    z-index: 15;
 }
 
 ul {
@@ -53,6 +54,7 @@ h1 {
     position: relative;
     left: 585px;
     top: -20px;
+    box-shadow: 0px 0px 5px black;
   }
 
 .nav-logo {
@@ -135,7 +137,7 @@ p {
 }
 
 .in-box {
-    height: 35px;
+    height: 40px;
     background-color: #70a7ff;
     position: relative;     
     top: -21px;
