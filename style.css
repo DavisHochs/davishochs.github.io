@@ -41,7 +41,8 @@ a {
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white; 
-    padding-left: 10px;   
+    padding-left: 10px; 
+    text-shadow: 2px 2px 3px black;  
 }
 .dot {
     height: 90px;
@@ -74,7 +75,7 @@ h2 {
 .home-links {
     width: 310px;
     height: 100px;
-    background-color: #3D6AB3;    
+    background-color: #70a7ff;    
     float:left;
     margin: 10px 5px;
     position: relative;
@@ -94,12 +95,14 @@ h2 {
     padding: 10px 24px;
     text-align: center;
     text-decoration: none;
+    border: solid 2px white;
+    border-radius:5px;
     display: inline;
     font-size: 16px;
-    opacity: 0.6;
+    opacity: 1;
     transition: 0.3s;
 }
-.btn:hover {opacity: 1}
+.btn:hover {opacity: 0.5}
 
 .img-main {
     float: left;
