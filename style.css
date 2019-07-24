@@ -1,3 +1,8 @@
+body {
+    background-image: url("maze.png");
+    background-repeat: repeat;
+}
+
 .navbar {
     height: 50px;
     background-color: #70a7ff;
@@ -25,16 +30,17 @@ a {
 }
 
 .middle-col {
-    width: 60%;
+    width: 960px;
     background-color: #d1d1d1;
     margin: 0 auto;
     margin-top: 90px;
     
 } 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     padding-left: 5px;
+    padding-top: 15px;
 }
 .dot {
     height: 90px;
@@ -43,13 +49,51 @@ h1 {
     border-radius: 50%;
     display: block;
     position: relative;
-    left: 590px;
+    left: 585px;
     top: -20px;
   }
 
 .nav-logo {
     display: block;
     position: relative;
-    left: 600px;
+    left: 595px;
     top: -100px;
 }
+
+.landing-box {
+    text-align: center;
+    height: 250px;
+    
+}
+
+h2 {
+    color: black;
+    padding-top: 10px;
+}
+
+.home-links {
+    width: 310px;
+    height: 150px;
+    background-color: #3D6AB3;    
+    float:left;
+    margin: 10px 5px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    
+    
+}
+
+.btn {
+    background-color: #A9CC45; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
