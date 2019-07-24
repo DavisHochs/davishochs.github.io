@@ -69,18 +69,20 @@ h1 {
 
 h2 {
     color: black;
-    padding-top: 10px;
 }
 
 .home-links {
     width: 310px;
-    height: 150px;
+    height: 100px;
     background-color: #3D6AB3;    
     float:left;
     margin: 10px 5px;
     position: relative;
     bottom: 0px;
     left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
     
 }
@@ -89,14 +91,15 @@ h2 {
     background-color: #A9CC45; 
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 24px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     font-size: 16px;
-    align-items: center;
-    justify-content: center;
+    opacity: 0.6;
+    transition: 0.3s;
 }
+.btn:hover {opacity: 1}
 
 .img-main {
     float: left;
@@ -135,4 +138,14 @@ p {
     top: -21px;
 
 
+}
+
+.home-tabs {
+    float:left;
+    display: inline;
+}
+.home-tabs::after {
+    content: "";
+    clear: both;
+    display: table;
 }
