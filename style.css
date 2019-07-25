@@ -42,7 +42,6 @@ a {
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white; 
-    padding-left: 10px; 
     text-shadow: 2px 2px 3px black;  
 }
 .dot {
@@ -112,10 +111,7 @@ h2 {
     width: 300px;
     padding: 0px 20px 10px;
 }
-.mid-box {
-    
 
-}
 .mid-col::after {
     content: "";
     clear: both;
@@ -141,8 +137,6 @@ p {
     background-color: #70a7ff;
     position: relative;     
     top: -22px;
-
-
 }
 
 .home-tabs {
@@ -157,17 +151,15 @@ p {
 .img-box {
     position: relative;
     text-align: center;
-    
-    
 }
+
 
 .image-text {
     position: absolute;
     left: 100px;    
     top: 80px;
-    
+}
 
-  }
 .gallery-text {
     background-color: #70a7ff;
     color: white;
@@ -176,4 +168,13 @@ p {
 
 .gal-des {
     padding-top: 20px;  
+}
+
+.home-text {
+    text-align: center;
+    padding-top: -10px;
+    margin-top: -5px;
+}
+.in-head-text {
+    padding-left: 10px;
 }
