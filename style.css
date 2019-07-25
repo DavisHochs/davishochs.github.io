@@ -37,7 +37,7 @@ a {
     overflow: auto;
     border: solid 2px #70a7ff;
     border-radius: 5px;
-    
+    box-shadow: 2px 2px 3px black;  
 } 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
